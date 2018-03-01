@@ -1,7 +1,9 @@
 Requirement
 ===========
 
-Install AutoIt.
+Download and install AutoIt.
+
+https://www.autoitscript.com/site/autoit-news/autoit-v3-3-14-3-released/
 
 Next, after loading the .au3 file, compile it (F7 hotkey).
 
