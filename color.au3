@@ -42,7 +42,7 @@ Func DisplayColor()
 		Local $iColor = PixelGetColor($aPos[0], $aPos[1])
 		$color = _ColorGetRGB($iColor)
 		$colorName = printColorName($color)
-		ToolTip("  " & $colorName, $aPos[0] + 1, $aPos[1] + 1)
+		ToolTip($colorName, $aPos[0] + 1 + 15, $aPos[1] + 1)
 	Else
 		ToolTip("")
 	EndIf
